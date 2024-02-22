@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700A7A4B2B8778AC003CEB9C /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 700A7A492B8778AB003CEB9C /* Component.cpp */; };
 		70AEB6C42B8765FA0040205B /* Grid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70AEB6C22B8765FA0040205B /* Grid.cpp */; };
 		70AEB6C72B8768070040205B /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70AEB6C52B8768070040205B /* Tile.cpp */; };
 		70FFEAB12B8755B9003CD074 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FFEAB02B8755B9003CD074 /* main.cpp */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		700A7A492B8778AB003CEB9C /* Component.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
+		700A7A4A2B8778AC003CEB9C /* Component.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Component.hpp; sourceTree = "<group>"; };
 		70AEB6C22B8765FA0040205B /* Grid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Grid.cpp; sourceTree = "<group>"; };
 		70AEB6C32B8765FA0040205B /* Grid.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Grid.hpp; sourceTree = "<group>"; };
 		70AEB6C52B8768070040205B /* Tile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				70AEB6C32B8765FA0040205B /* Grid.hpp */,
 				70AEB6C52B8768070040205B /* Tile.cpp */,
 				70AEB6C62B8768070040205B /* Tile.hpp */,
+				700A7A492B8778AB003CEB9C /* Component.cpp */,
+				700A7A4A2B8778AC003CEB9C /* Component.hpp */,
 			);
 			path = SudokuSolver;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70AEB6C72B8768070040205B /* Tile.cpp in Sources */,
+				700A7A4B2B8778AC003CEB9C /* Component.cpp in Sources */,
 				70FFEAB12B8755B9003CD074 /* main.cpp in Sources */,
 				70AEB6C42B8765FA0040205B /* Grid.cpp in Sources */,
 			);
