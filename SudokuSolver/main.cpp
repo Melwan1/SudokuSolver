@@ -8,6 +8,8 @@
 #include <iostream>
 using namespace std;
 
+#include "Grid.hpp"
+
 int main(int argc, const char * argv[]) {
     cout << "====================================\n";
     cout << "Welcome to Sudoku Solver\n";
@@ -24,6 +26,10 @@ int main(int argc, const char * argv[]) {
         cout << "Entered grid type is invalid!\n";
         return 1;
     }
+    Grid grid(SQUARE, 9, "123456789");
+    Component component({});
+    grid.populate();
+    grid.print();
     return 0;
     
 }
